@@ -170,4 +170,67 @@ h1 {
     width: 200px;
     text-align: center;
   }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: #f9fafb;
+      background: #0f172a;
+    }
+
+    .container {
+      background: #1e293b;
+      border: 1px solid #334155;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      color: #f8fafc;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+    }
+
+    .section-title {
+      color: #f8fafc;
+      border-bottom: 2px solid #f8fafc;
+    }
+
+    .bio {
+      color: #cbd5e1;
+    }
+
+    .job {
+      background: #334155;
+      border-left: 4px solid #f8fafc;
+    }
+
+    .job-title {
+      color: #f8fafc;
+    }
+
+    .company {
+      color: #94a3b8;
+    }
+
+    .duration {
+      color: #64748b;
+    }
+
+    .contact {
+      border-top: 1px solid #334155;
+    }
+
+    .link {
+      color: #f8fafc;
+      border: 1px solid #475569;
+      background: #334155;
+    }
+
+    .link:hover {
+      background: #f8fafc;
+      color: #1e293b;
+      border-color: #f8fafc;
+    }
+  }
 }
